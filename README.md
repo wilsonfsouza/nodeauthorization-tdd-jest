@@ -9,8 +9,8 @@
   </a>
 </p>
 
-<h1 align="center" style="background-color: rgb(51, 51, 51); height: 100px;">
-    <img alt="Nodejs" title="#Nodejs" src="https://nodejs.org/static/images/logo.svg" />
+<h1 align="center" style="height: 100px;">
+    <img alt="Nodejs" title="#Nodejs" src="https://miro.medium.com/max/1200/1*fsseXIPGEhwmg6kfgXyIjA.jpeg" />
 </h1>
 
 <h4 align="center">
