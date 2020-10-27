@@ -25,6 +25,20 @@ describe('Authentication', () => {
         expect(response.status).toBe(200);
     });
 
+    it('should not authenticate with invalid email', async () => {
+        const user = await factory.create('User', {
+            password: '123123'
+        })
+        const response = await request(app)
+            .post('/session')
+            .send({
+                email: 'wilson.franca.92@gmail.com',
+                password: '123123'
+            })
+
+        expect(response.status).toBe(401);
+    });
+
     it('should not authenticate with invalid credentials', async () => {
         const user = await factory.create('User', {
             password: '123123'
